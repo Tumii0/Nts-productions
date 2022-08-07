@@ -27,7 +27,7 @@ body{
 body::-webkit-scrollbar {
     width: 1rem;
   }
-  
+
   body::-webkit-scrollbar-track {
     background: #1e1e24;
   }
@@ -564,4 +564,10 @@ border-radius: 6px;
     z-index: 1;
     transform: rotateY(180deg);
 } 
+.highlight{
+    /* filter: brightness(120%);
+    filter: contrast(120%); */
+    filter: drop-shadow(8px 8px 8px rgb(206, 71, 69));
+  
+}
 }
