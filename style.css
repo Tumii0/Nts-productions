@@ -419,7 +419,7 @@ border-radius: 6px;
     /* videos section  */
     .videos-section{
         padding: 30px;
-        overflow-x: scroll;
+    
     }
     iframe{
        width: 270px;
@@ -432,6 +432,7 @@ border-radius: 6px;
         display: flex;
         flex-direction: row ;
         gap: 40px;
+        overflow-x: scroll;
     }
 .video-card{
     /* background: #1D1C23; */
@@ -454,19 +455,18 @@ margin-right: 15px;
 font-size: 18px;
 
 }
-
-.videos-section::-webkit-scrollbar-track{
+.videoCard-container::-webkit-scrollbar-track{
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
     box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
     background-color:  #08080A;
 }
-.videos-section::-webkit-scrollbar{
+.videoCard-container::-webkit-scrollbar{
     width: 10px;
     height: 15px;
     background-color: #ccc;
     border-radius: 20px;
 }
-.videos-section::-webkit-scrollbar-thumb{
+.videoCard-container::-webkit-scrollbar-thumb{
     background-color:  #1e1e24;
 }
 
