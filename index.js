@@ -154,16 +154,6 @@ timelineThree.addEventListener('change', changeSeekThree);
 
 
 
-
-
-
-
-
-
-
-
-
-
 function toggleSoundOne () {
   audioOne.muted = !audioOne.muted;
   soundButtonOne.innerHTML = audioOne.muted ? muteIcon : soundIcon;
@@ -180,3 +170,14 @@ function toggleSoundThree () {
 soundButtonOne.addEventListener('click', toggleSoundOne);
 soundButtonTwo.addEventListener('click', toggleSoundTwo);
 soundButtonThree.addEventListener('click', toggleSoundThree);
+
+
+
+
+const toggleContent = document.querySelector(".toggle-content")
+const videos = document.querySelector(".view-details")
+
+videos.addEventListener("click", function(){
+
+ toggleContent.classList.toggle("idk");
+})
