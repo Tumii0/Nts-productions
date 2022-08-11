@@ -174,10 +174,15 @@ soundButtonThree.addEventListener('click', toggleSoundThree);
 
 
 
-const toggleContent = document.querySelector(".toggle-content")
-const videos = document.querySelector(".view-details")
 
-videos.addEventListener("click", function(){
 
- toggleContent.classList.toggle("idk");
+
+
+
+
+const subscribeBtn = document.querySelector(".subscribe-btn")
+subscribeBtn.addEventListener('click', function(){
+  subscribeBtn.innerText = "Thank you for subscribing!"
+  subscribeBtn.style.background = "green"
+  
 })
